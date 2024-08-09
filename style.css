@@ -1,0 +1,48 @@
+
+.libre-franklin-libreF {
+                     font-family: "Libre Franklin", sans-serif;
+                     font-optical-sizing: auto;
+                     font-weight:600;
+                     font-style: normal;
+                 }
+
+/*Body*/
+*{
+    background-color: #d5d5d5;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family: "Libre Franklin", sans-serif;
+    color: #252525;
+
+}
+p{
+}
+
+header{
+   box-sizing: border-box;
+   position: sticky;
+    width: 100%;
+}
+.nav-links {
+    display: flex;
+    grid-column-gap: 2em;
+}
+
+.desktop-navigation{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding:10px;
+}
+
+.desktop-navigation a{
+    text-decoration: none;
+}
+
+.logo{
+    float: left
+ }
+
