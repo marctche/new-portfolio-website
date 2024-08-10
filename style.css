@@ -1,34 +1,62 @@
 
-.libre-franklin-libreF {
-                     font-family: "Libre Franklin", sans-serif;
-                     font-optical-sizing: auto;
-                     font-weight:600;
-                     font-style: normal;
-                 }
+/*_____FONTS_____*/
 
-/*Body*/
-*{
-    background-color: #d5d5d5;
-    margin:0;
-    padding:0;
+/*PPMORI*/
+@font-face{
+    font-family: PPMori-Regular;
+    src:url("./Fonts/PPmori/PPMori-Regular.otf") ;
+}
+@font-face{
+    font-family: PPMori-SemiBold;
+    src:url("./Fonts/PPmori/PPMori-SemiBold.otf") ;
+}
+@font-face{
+    font-family: PPMori-Extralight;
+    src:url("./Fonts/PPmori/PPMori-Extralight.otf") ;
 }
 
-h1{
-    font-family: "Libre Franklin", sans-serif;
-    color: #252525;
+/*NEUE MONTREAL*/
+@font-face {
+    font-family: PPNeueBold ;
+    src: url("./Fonts/NeueMontreal/PPNeueMontreal-Bold.otf");
+}
+@font-face {
+    font-family: PPNeueBook ;
+    src: url("./Fonts/NeueMontreal/PPNeueMontreal-Book.otf");
+}
+@font-face {
+    font-family: PPNeueItalic ;
+    src: url("./Fonts/NeueMontreal/PPNeueMontreal-Italic.otf");
+}
+@font-face {
+    font-family: PPNeueMedium ;
+    src: url("./Fonts/NeueMontreal/PPNeueMontreal-Medium.otf");
+}
+@font-face {
+    font-family: PPNeueSemiBoldItalic ;
+    src: url("./Fonts/NeueMontreal/PPNeueMontreal-SemiBolditalic.otf");
+}
+@font-face {
+    font-family: PPNeueThin ;
+    src: url("./Fonts/NeueMontreal/PPNeueMontreal-Thin.otf");
+}
 
-}
-p{
-}
+/*HEADER*/
+
 
 header{
    box-sizing: border-box;
    position: sticky;
-    width: 100%;
+   width: 100%;
 }
+
 .nav-links {
     display: flex;
     grid-column-gap: 2em;
+}
+
+.nav-links a{
+
 }
 
 .desktop-navigation{
@@ -36,13 +64,59 @@ header{
     justify-content: space-around;
     font-size: 1rem;
     padding:10px;
+    margin-top: 10px;
 }
 
 .desktop-navigation a{
     text-decoration: none;
+    font-family: PPMori-Extralight;
+    color: #252525;
+    font-size: 20px;
 }
 
 .logo{
-    float: left
+    float: left;
  }
+
+/*GENERAL*/
+
+*{
+    background-color: #d5d5d5;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family: PPMori-SemiBold;
+    color: #252525;
+}
+
+h4{
+    font-family: PPNeueThin;
+    font-size: 30px;
+}
+
+p{
+    font-family: PPNeueThin;
+}
+
+
+
+/*ABOUT*/
+
+.top-about{
+    width: 100%;
+    height: 500px;
+    padding: 100px 0px 100px 15px;
+
+}
+
+
+.main-name-title{
+    font-size: 100px;
+    letter-spacing: -12px;
+    display: inline;
+}
+
+
 
