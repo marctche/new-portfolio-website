@@ -58,7 +58,7 @@ header{
 .desktop-navigation{
     display: flex;
     justify-content: space-around;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding:1.25rem 0rem;
     margin: auto 15vh;
 }
@@ -69,7 +69,6 @@ header{
     text-decoration: none;
     font-family: PPMori-Extralight;
     color: #252525;
-    font-size: 1.5rem;
 }
 
 .logo{
@@ -106,8 +105,11 @@ h4{
     font-size: 2rem;
 }
 
+
+
 p{
     font-family: PPNeueThin;
+    font-size: 1.25rem;
 }
 
 
@@ -126,13 +128,17 @@ p{
 
 .top-about{
     margin: 1.5vh 15vh;
-
 }
 
+.top-about h4{
+    margin-left:.5rem;
+    padding-bottom: 1rem;
+}
 .main-name-title{
-    font-size: 5em;
+    font-size:6rem;
     letter-spacing: -0.5rem;
     display: inline;
+    line-height:.8;
 
 }
 
@@ -140,13 +146,22 @@ p{
     display: grid;
     align-items: flex-end;
     grid-template-columns: 8fr 4fr;
-    grid-column-gap: 1.25em;
+    grid-column-gap: 1.5em;
     position: relative;
 }
 
 .education-short{
-    margin-bottom: 4vh;
+    margin-bottom: 1em;
     position: relative;
+    justify-content: space-around;
+    letter-spacing: 0;
+}
+
+.about-description{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    margin-top:1.5rem;
+    line-height: 1.5rem;
 
 }
 
