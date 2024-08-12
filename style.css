@@ -60,7 +60,7 @@ header{
     justify-content: space-around;
     font-size: 1rem;
     padding:1.25rem 0rem;
-    margin: auto 15vh;
+    margin: auto 10.125em;
 }
 
 
@@ -89,7 +89,7 @@ header .nav {
 }
 
 *{
-    background-color: #d5d5d5;
+    background-color: #f3f3f3;
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -112,22 +112,30 @@ p{
     font-size: 1.25rem;
 }
 
+a:hover {
+    font-family: PPNeueItalic;
+    font-size: 1.25rem;
+    transition: all 0.5s ease ;
+}
+
 
 
 /*ABOUT*/
 
+/*Top-About*/
+
 #about{
-    margin:15em 0em;
+    margin:30vh 0vh;
 }
 
 .wrapper{
-    max-width: 90em;
+    max-width: 110em;
     padding: 0 2.5em;
-    margin: 0 auto;
+    margin: 0em auto;
 }
 
 .top-about{
-    margin: 1.5vh 15vh;
+    margin: 1em 10.125em;
 }
 
 .top-about h4{
@@ -135,7 +143,7 @@ p{
     padding-bottom: 1rem;
 }
 .main-name-title{
-    font-size:6rem;
+    font-size: 6rem;
     letter-spacing: -0.5rem;
     display: inline;
     line-height:.8;
@@ -145,26 +153,57 @@ p{
 .full-main-name-title{
     display: grid;
     align-items: flex-end;
-    grid-template-columns: 8fr 4fr;
-    grid-column-gap: 1.5em;
-    position: relative;
+    grid-template-columns: 8fr 2fr;
+    grid-column-gap: 4em;
+
 }
 
 .education-short{
     margin-bottom: 1em;
     position: relative;
-    justify-content: space-around;
     letter-spacing: 0;
+    width: fit-content;
 }
 
 .about-description{
     display: grid;
-    grid-template-columns: 8fr 4fr;
-    margin-top:1.5rem;
+    align-items: flex-end;
+    grid-template-columns: 8fr 2fr;
+    grid-column-gap: 4em;
     line-height: 1.5rem;
+    margin: 1.5em 10.125em;
+}
+.about-description p {
+}
+
+/*Bottom About*/
+
+.bottom-about{
+    margin: 3em 0em;
+}
+
+.about-media-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+.about-media-links h1{
+    font-size: 1.5rem;
 
 }
 
+
+.media-links{
+    text-decoration:none;
+    list-style: none;
+}
+
+.media-links-box{
+    border-top: 0.005rem solid #252525;
+    padding-top: 0.5em;
+    gap: 1em;
+}
 
 
 
