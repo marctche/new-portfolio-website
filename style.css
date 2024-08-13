@@ -119,6 +119,9 @@ a:hover {
     color:#9AA997;
 }
 
+section{
+    margin: 25vh 0;
+}
 
 
 /*ABOUT*/
@@ -194,7 +197,6 @@ a:hover {
 
 }
 
-
 .media-links{
     text-decoration:none;
     list-style: none;
@@ -215,9 +217,6 @@ a:hover {
 
 /*EDUCATION SECTION*/
 
-#edu{
-    margin: 30vh 0;
-}
 
 .education-box-containers{
     margin: 1em 10.125em;
@@ -226,19 +225,20 @@ a:hover {
 .education-container-full{
     padding: 2rem 0;
     display: grid;
-    grid-template-columns: 9.5fr 2.5fr;
+    grid-template-columns: 12fr 0fr;
 }
 .section-titles {
     font-size: 3rem;
     padding: 1.5em 0;
 }
-.education-title{
+.section-title{
     display: flex;
     gap: 0.5em;
-    font-size: 1.4rem;
+    font-size: 1.75rem;
+
 }
-.education-title p{
-    font-size: 1.4rem;
+.section-title p{
+    font-size: 1.75rem;
     margin: auto 0;
 }
 
@@ -257,6 +257,27 @@ a:hover {
 .course-work li{
     padding: 0.25rem;
 }
+
+
+/*SKILLS*/
+
+.skills-box-containers{
+    margin: 1em 10.125em;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+}
+
+.skill-boxes{
+    border-left: #252525 solid 0.1rem;
+    padding-left: 0.75em;
+
+}
+
+.indiv-skills
 
 
 
