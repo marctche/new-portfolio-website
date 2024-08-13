@@ -116,6 +116,7 @@ a:hover {
     font-family: PPNeueItalic;
     font-size: 1.25rem;
     transition: all 0.5s ease ;
+    color:#9AA997;
 }
 
 
@@ -143,7 +144,7 @@ a:hover {
     padding-bottom: 1rem;
 }
 .main-name-title{
-    font-size: 6rem;
+    font-size: 5.5em;
     letter-spacing: -0.5rem;
     display: inline;
     line-height:.8;
@@ -197,12 +198,64 @@ a:hover {
 .media-links{
     text-decoration:none;
     list-style: none;
+    color: #252525;
+}
+
+.media-links:hover{
+    color:#9AA997 ;
+    transition: all 0.5s ease ;
+    cursor: pointer ;
 }
 
 .media-links-box{
     border-top: 0.005rem solid #252525;
     padding-top: 0.5em;
     gap: 1em;
+}
+
+/*EDUCATION SECTION*/
+
+#edu{
+    margin: 30vh 0;
+}
+
+.education-box-containers{
+    margin: 1em 10.125em;
+}
+
+.education-container-full{
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 9.5fr 2.5fr;
+}
+.section-titles {
+    font-size: 3rem;
+    padding: 1.5em 0;
+}
+.education-title{
+    display: flex;
+    gap: 0.5em;
+    font-size: 1.4rem;
+}
+.education-title p{
+    font-size: 1.4rem;
+    margin: auto 0;
+}
+
+.information-education-container{
+    margin: 1rem 3rem;
+}
+
+.related-course-work{
+    margin-left: 2rem ;
+    padding: 0.25rem;
+}
+
+.course-work{
+    list-style: none;
+}
+.course-work li{
+    padding: 0.25rem;
 }
 
 
