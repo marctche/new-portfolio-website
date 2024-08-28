@@ -43,7 +43,6 @@
 
 /*HEADER*/
 
-
 header{
    box-sizing: border-box;
    position: sticky;
@@ -86,6 +85,10 @@ header .nav {
     .wrapper {
         max-width: 85em;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 *{
