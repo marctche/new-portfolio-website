@@ -267,17 +267,51 @@ section{
 
 .skills-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2em;
+    align-items: center;
 }
 
 .skill-boxes{
-    border-left: #252525 solid 0.1rem;
     padding-left: 0.75em;
+    display: flex;
+    flex-direction: column;
 
 }
 
-.indiv-skills
+.section-title2{
+    border-left: #252525 solid 0.1rem;
+    padding-left: 0.5em;
+    position: relative;
+}
+
+.indiv-skills{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+article {
+    display: flex; /* Aligns icon and text horizontally */
+    align-items: center; /* Centers content vertically within the article */
+    gap: 10px; /* Adds space between the icon and text */
+}
+
+.icon {
+    width: 40px; /* Sets width of icons */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.icon-text p{
+    font-size: 3rem;
+}
+.icon{
+    height: 4rem;
+
+}
+
 
 
 
